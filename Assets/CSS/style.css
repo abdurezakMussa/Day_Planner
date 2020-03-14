@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
-    background-image: url('../images/279559.jpg');
+    background-image: url('../images/eric-rothermel-FoKO4DpXamQ-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
 
   #hour-5 {
       border-bottom: 1px solid black;
-border: 1px solid black;
+      border: 1px solid black;
   }
   
   textarea{
@@ -64,17 +64,17 @@ border: 1px solid black;
   
   .past {
     background-color: rgba(236, 236, 237, 0.5);
-    color: white;
+    color: black;
   }
   
   .present {
     background-color: rgba(255, 44, 44, 0.5);
-    color: white;
+    color: black;
   }
   
   .future {
     background-color: rgba(3, 236, 17, 0.4);
-    color: white;
+    color: black;
   }
   
   .saveBtn {
