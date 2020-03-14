@@ -39,7 +39,8 @@ body {
   
   .description{
     white-space: pre-wrap;
-    color: #fff;
+    color: black 
+    
   }
   
   .time-block{
