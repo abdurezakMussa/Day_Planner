@@ -16,6 +16,7 @@ body {
   #hour-5 {
       border-bottom: 1px solid black;
       border: 1px solid black;
+      height: 80px;
   }
   
   textarea{
@@ -25,6 +26,7 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+   
   }
   
   .jumbotron {
@@ -44,19 +46,23 @@ body {
     text-align: center;
     background-color: rgba(64, 64, 64, 0.69);
     color: #fff;
+    
+
   }
   
   .row {
     white-space: pre-wrap;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    
+    height: 80px;
   }
   
   .hour {
+    height: 80px;
     color:  black;
-    border-left: 0px solid black;
-    border-bottom: 1px;
+    
+    border-top: 1px;
+    border-bottom: 2px solid;
     padding-top: 2%;
     background-color: #fff;
     
