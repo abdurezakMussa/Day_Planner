@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    // Gets the local storage values for all time blocks and sets them if they already exist
+    // Gets the local storage values for all time blocks and sets them if they already exist.
     // 9AM
     var t0 = localStorage.getItem("9am");
     $("#9-am").text(t0);
@@ -37,7 +37,7 @@ $(document).ready(function(){
     var t8 = localStorage.getItem("5pm");
     $("#5-pm").text(t8);
 
-
+//-------------------------------------------------------------------------------------------
     $(".saveBtn").on("click", function() {
         //console.log(this);
         var value = $(this).siblings(".description").val(); // This gets the VALUE of the description in jQuery
@@ -47,14 +47,13 @@ $(document).ready(function(){
 
     });
     // Displays the current date and time
-    $("#currentDay").text(moment().format("llll"));
+    $("#currentDay").text(moment().format("llll"));// I used moment function to get date and time format
 
     // Determines which color class to apply based on the current hour
     var elements = $(".time-block");
     var d = new Date();
    var h = d.getHours();
-   // var h = 15;
-    
+      // I use for loop to add and remove the time interval Past, Present and Future 
     for (i = 0; i < elements.length; i++) {
         var t = parseInt(elements[i].getAttribute("data-hour"));
 
